@@ -24,13 +24,13 @@ When compared to 2018 performance though, almost all twelve stocks except two ha
 
 Changing the macro code will speed up the macro execution time and simplify the overall macro configuration allowing for a larger number of stocks and their daily figures to be processed and anaylzed.  In this case, following code refactoring, the macro execution for the 2017 and 2018 datasets only required approximately 10% of the original execution time.  
 
-####2017 code execution times
+#### 2017 code execution times
 
 ![](images/VBA_Original_2017.png)
 ![](images/VBA_Challenge_2017.png)
 
 
-####2018 code execution times
+#### 2018 code execution times
 
 ![](images/VBA_Original_2018.png)
 ![](images/VBA_Challenge_2018.png)
@@ -39,9 +39,11 @@ Changing the macro code will speed up the macro execution time and simplify the 
 ## Summary
 
 1) What are the advantages or disadvantages of refactoring code
+
 *Advantages of refactoring code is and easier to understand and maintain code that should increase the execution speed of the code.  Additionally refactoring code allows for new perspectives on code configuration that the original author may not have known was an option.
 
 *Disadvantages of refactoring code is that it can be a time consuming activity and there may not be more efficient or cleaner options available.
 
 2) How do these pros and cons apply to refactoring the original VBA script?
+
 Refactoring the original code has allowed for nested loops to be removed leaving more flexible code that executes more efficiently and allows more stock tickers to be evaluated in the future.  The downside of refactoring the original VBA script was the time spent on understanding creation of the index variable and correctly applying it to the looping logic.
