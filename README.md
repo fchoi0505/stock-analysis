@@ -16,24 +16,24 @@ The macro available for execution within the Excel file will procss through the 
 
 Reviewing the twelve stocks tracked in this analysis, the 2017 performance would suggest that all but one of the stocks had a positive return percentage.  With a third of the eleven stocks having a greater than 100% return making most of the stocks appear very desirable based on 2017 analysis alone.
 
-!{}(images/VBA_RefactoredResults_2017.png)
+![](images/VBA_RefactoredResults_2017.png)
 
 When compared to 2018 performance though, almost all twelve stocks except two had a negative return percentage.  And of the ten stocks with negative return, a thirds had a negative return greater than 35%.  Only the "ENPH" and "RUN" companies retained a positive return percentage in both 2017 and 2018.
 
-!{}(images/VBA_RefactoredResults_2018.png)
+![](images/VBA_RefactoredResults_2018.png)
 
 Changing the macro code will speed up the macro execution time and simplify the overall macro configuration allowing for a larger number of stocks and their daily figures to be processed and anaylzed.  In this case, following code refactoring, the macro execution for the 2017 and 2018 datasets only required approximately 10% of the original execution time.  
 
 ####2017 code execution times
 
-!{}(images/VBA_Original_2017.png)
-!{}(images/VBA_Challenge_2017.png)
+![](images/VBA_Original_2017.png)
+![](images/VBA_Challenge_2017.png)
 
 
 ####2018 code execution times
 
-!{}(images/VBA_Original_2018.png)
-!{}(images/VBA_Challenge_2018.png)
+![](images/VBA_Original_2018.png)
+![](images/VBA_Challenge_2018.png)
 
 
 ## Summary
